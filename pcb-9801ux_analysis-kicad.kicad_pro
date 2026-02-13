@@ -658,6 +658,10 @@
     [
       "2080c960-1c84-4d52-a219-9ce00d4c52dd",
       "Address Decoder"
+    ],
+    [
+      "8b865e25-23fc-4bca-a0ec-becb366732f7",
+      "Layer 2"
     ]
   ],
   "text_variables": {}

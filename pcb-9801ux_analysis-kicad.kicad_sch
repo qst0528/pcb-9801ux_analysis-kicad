@@ -1174,6 +1174,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e36d262-65ab-4576-b07a-8f14ade859f2")
+	)
+	(wire
+		(pts
 			(xy 82.55 31.75) (xy 85.09 31.75)
 		)
 		(stroke
@@ -1511,6 +1521,16 @@
 			(type default)
 		)
 		(uuid "ec1d87c3-09aa-4cea-aaef-d814282f1dc3")
+	)
+	(wire
+		(pts
+			(xy 49.53 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3bac67-fc81-413d-abca-0132619c1530")
 	)
 	(wire
 		(pts
@@ -1959,8 +1979,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 26.67)
-		(size 24.13 33.02)
+		(at 58.42 22.86)
+		(size 24.13 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1975,7 +1995,7 @@
 		)
 		(uuid "2080c960-1c84-4d52-a219-9ce00d4c52dd")
 		(property "Sheetname" "Address Decoder"
-			(at 58.42 25.9584 0)
+			(at 58.42 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,10 +2102,92 @@
 				(justify right)
 			)
 		)
+		(pin "L1_UNKNOWN" input
+			(at 58.42 25.4 180)
+			(uuid "92890d50-a4c6-4437-ba8a-f95e3326be97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L1_SASI_INTERFACE" input
+			(at 58.42 27.94 180)
+			(uuid "04d47327-c22a-4cb3-8ee5-e471cbbe9ada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcb-9801ux_analysis-kicad"
 				(path "/e1c751df-dbb0-421f-aa76-3a1992ed5601"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 22.86)
+		(size 31.75 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b865e25-23fc-4bca-a0ec-becb366732f7")
+		(property "Sheetname" "Layer 2"
+			(at 17.78 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "layer2.kicad_sch"
+			(at 17.78 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L2_SASI_INTERFACE" output
+			(at 49.53 27.94 0)
+			(uuid "944804d4-5b2b-4e81-bd80-751d6bcff1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L2_UNKNOWN" output
+			(at 49.53 25.4 0)
+			(uuid "ed292089-0d79-482b-b1f9-67fa5916a2b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcb-9801ux_analysis-kicad"
+				(path "/e1c751df-dbb0-421f-aa76-3a1992ed5601"
+					(page "4")
 				)
 			)
 		)
