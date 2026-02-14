@@ -5938,7 +5938,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NAND"
+	(text "NAND E_{1}"
 		(exclude_from_sim no)
 		(at 143.51 167.64 0)
 		(effects
@@ -5958,7 +5958,7 @@
 		)
 		(uuid "69aee185-ecd3-40a1-897d-85baa67adf2a")
 	)
-	(text "NOR"
+	(text "NOR A_{1}"
 		(exclude_from_sim no)
 		(at 140.97 191.008 0)
 		(effects
@@ -5968,7 +5968,7 @@
 		)
 		(uuid "8e32a5d4-c002-426f-94c9-706ffd22833e")
 	)
-	(text "NOR"
+	(text "NOR A_{0}"
 		(exclude_from_sim no)
 		(at 160.02 162.306 0)
 		(effects
@@ -5978,7 +5978,7 @@
 		)
 		(uuid "a3a574fb-8879-4d43-ad93-6bb4fe61ddd5")
 	)
-	(text "SNDIO_ENABLE"
+	(text "SNDIO_ENABLE A_{2}"
 		(exclude_from_sim no)
 		(at 126.492 162.052 0)
 		(effects
@@ -5988,7 +5988,7 @@
 		)
 		(uuid "b3718dc5-7522-44e8-90da-4a2cddd52126")
 	)
-	(text "NOR"
+	(text "NOR E_{3}"
 		(exclude_from_sim no)
 		(at 160.274 191.008 0)
 		(effects
@@ -5997,6 +5997,26 @@
 			)
 		)
 		(uuid "b76a6bba-95a3-4c52-9cef-5bcfd8957b79")
+	)
+	(text_box "~{O7} = A0·A1·A2·E3·~{E2}·~{E1}"
+		(exclude_from_sim no)
+		(at 195.58 80.01 0)
+		(size 27.94 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "da1412b2-1d0c-4cb1-b096-086c07e17edd")
 	)
 	(junction
 		(at 194.31 102.87)
